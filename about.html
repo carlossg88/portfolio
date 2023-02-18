@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100;300;400;500&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+  :root{
+    --white: #ffffff;
+    --black: #000000;
+    --Darkblue: #2a2e34;
+    --Bluegray: #3B3F46;
+    --Gray:#cecece;
+    --lightGray:#dddddd;
+    --yellow2: #feba33;
+    
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --vlr: 50px;
+    --ttl:80px
+
+    }
+  body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Oswald', sans-serif;
+  }
+  .form-container{
+    display:flex;
+    height: 600px;
+  }
+  .left-panel{
+    width:20%;
+    background-color: var(--yellow2);
+    height: 99.4%;
+    
+  }
+  .left-panel ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 0;
+    
+  }
+  .left-panel ul li{
+    padding-top: 33px;
+    
+  }
+  .left-panel ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+  }
+  .left-panel ul li:nth-child(2) a {
+    color: var(--white);
+  }
+
+  .my-image{
+    background-color: var(--black);
+    width: 100%;
+      /* height: 100%; */
+  }
+  .my-image img{
+    width: 200px;
+    justify-content: center;
+    object-fit:contain;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+  }
+
+  .right-panel{
+    width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .title{
+    text-align: center;
+    font-size: var(--vlr);
+    border: 1px dashed var(--Gray);
+    border-width: 2px;
+    margin: 20px 20px 20px 0px;
+    height: 15%;
+  }
+  .subtitle{
+    padding:30px 20px 0px 0px;
+    font-size: 25px;
+    height: 9%;
+    
+  }
+  .subtitle span{
+    font-weight: bold;
+    font-size: 25px;
+    
+  }
+  .FontSize{
+    font-size: var(--lg);
+  }
+  .paragraph{
+    
+    padding: 0px 20px 0px 0px;
+    text-align: justify;
+    margin-bottom: 20px;
+    height: 17%;
+
+    
+  }
+  .Inferior-Panel{
+    display: flex;
+    height: 35%;
+  }
+  .Black-Panel-Container{
+    background-color: var(--black);
+    display: grid;
+    grid-template-columns: 50% 50%; /*la cantidad de autos son la cantidad de columnas que quiero*/
+    width: 75%;
+    justify-content: space-around;
+    
+  }
+  .Black-Panel-Container div:nth-child(1){
+    border-right: 1px dashed var(--Gray);
+    border-bottom: 1px dashed var(--Gray);
+    border-width: 2px;
+  }
+  .Black-Panel-Container div:nth-child(2){
+    border-bottom: 1px dashed var(--Gray);
+    border-width: 2px;
+  }
+
+
+  .Black-Panel-Container div:nth-child(3){
+    border-right: 1px dashed var(--Gray);
+    border-width: 2px;
+  }
+
+  .box{
+    text-align: center;
+    color: var(--yellow2);
+    font-weight: bold;
+  }
+  .p1{
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+  .p2{
+    color: var(--white);
+    margin-top: 0;
+    font-size: var(--lg);
+  }
+
+  .WhatIDo{
+    display: grid;
+    grid-template-columns: 40% auto;
+    
+    padding-right: 20px;
+    justify-content: space-between;
+  }
+  .image{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .column p{
+    height: 35px;
+    padding-left: 20px;
+    text-align: end;
+    padding-bottom: 11px;
+    /* justify-content: space; */
+  }
+  
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+
+    <div class="left-panel">
+
+      <div class="my-image">
+        <img src="./img1.png" alt="profile_img">
+      </div>
+
+      <ul>
+        <li>
+          <a href="" class="list">HOME</a>
+        </li>
+        <li>
+          <a href="" class="list">ABOUT ME</a>
+        </li>
+        <li>
+          <a href="" class="list">RESUME</a>
+        </li>
+        <li>
+          <a href="" class="list">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="" class="list">PROGRAM SKILLS</a>
+        </li>
+        <li>
+          <a href="" class="list">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="right-panel">
+
+      <h1 class="title">ABOUT ME</h1>
+
+      <p class="subtitle">I'm <span class="Span-Bold FontSize">Carlos Stephen Gerardino,</span>  Front-End Designer/ Civil Engenieer </p>
+      
+      <p class="paragraph">In 2012 started my carrer as a Civil Engenieer. In 2019, started my carrer as a developer creating desktop applications focused on structural design based on NSR-10 (Colombian code for structural design) in VBa.Net language. The fist tool I develped is called ENE(Elementos No Estructurales ) which means "non structurals elements" that design walls, slabs, stairs and simple beams. After that releasing MPCE and SOIL other tools for structural design and foundation design. In early 2023 started my carrer as a Front-End developer. </p>
+      
+      <div class="Inferior-Panel">
+
+        <div class="Black-Panel-Container">
+
+          <div class="box">
+            <p class="p1">11 +</p>
+            <p class="p2">years experience</p>
+          </div>
+          <div class="box">
+            <p class="p1">100 +</p>
+            <p class="p2">Projects done</p>
+          </div>
+          <div class="box">
+            <p class="p1">50 +</p>
+            <p class="p2">Happy clients</p>
+          </div>
+          <div class="box">
+            <p class="p1">200 +</p>
+            <p class="p2">Followers</p>
+          </div>
+
+        </div>
+
+        <div class="WhatIDo">
+
+          <div class="image">
+            <img src="./img3.png" alt="Page_img">
+            <img src="./img4.png" alt="computer_img">
+            <img src="./img2.png" alt="Building_img">
+          </div>
+          <div class="column">
+            <p>WEB DESIGN</p>
+            <p>SOFTWARE</p>
+            <p>STRUCTURAL DESIGN</p>
+          </div>
+
+
+
+        
+        </div>
+      </div>
+
+
+    </div>
+
+   
+  </div>
+    
+</body>
+</html>

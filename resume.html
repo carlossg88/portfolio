@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100;300;400;500&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+  :root{
+    --white: #ffffff;
+    --black: #000000;
+    --Darkblue: #2a2e34;
+    --Bluegray: #3B3F46;
+    --Gray:#cecece;
+    --lightGray:#adabab;
+    --yellow2: #feba33;
+    
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --vlr: 50px;
+    --ttl:80px
+
+    }
+  body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Oswald', sans-serif;
+  }
+  .form-container{
+    display:flex;
+    height: 600px;
+  }
+  .left-panel{
+    width:20%;
+    background-color: var(--yellow2);
+    height: 99.4%;
+    
+  }
+  .left-panel ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 0;
+    
+  }
+  .left-panel ul li{
+    padding-top: 33px;
+    
+  }
+  .left-panel ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+  }
+  .left-panel ul li:nth-child(3) a{
+    color: var(--white);
+  }
+
+  .my-image{
+    background-color: var(--black);
+    width: 100%;
+      /* height: 100%; */
+  }
+  .my-image img{
+    width: 200px;
+    justify-content: center;
+    object-fit:contain;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+  }
+
+  .right-panel{
+    width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
+
+  .right-panel .box-container {
+    border-bottom: 1px dashed var(--Gray);
+    border-width: 2px;
+  }
+  .container{
+    background-color: var(--lightGray);
+  }
+  .title{
+    text-align: center;
+    font-size: var(--vlr);
+    border: 1px dashed var(--Gray);
+    border-width: 2px;
+    margin: 20px 20px 20px 0px;
+    height: 15%;
+  }
+  .subtitle{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+  }
+  .box-container{
+    display:flex;
+    justify-content: space-between;
+    
+  }
+  .box{
+    width: 250px;
+   
+  }
+
+  .subtitle1{
+    background-color: var(--yellow2);
+    width: 100px;
+    padding-left: 10px;
+    margin: 0px;
+  }
+
+  .subtitle2{
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .paragraph{
+    text-align: justify;
+  }
+
+
+
+  
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+
+    <div class="left-panel">
+
+      <div class="my-image">
+        <img src="./img1.png" alt="profile_img">
+      </div>
+
+      <ul>
+        <li>
+          <a href="" class="list">HOME</a>
+        </li>
+        <li>
+          <a href="" class="list">ABOUT ME</a>
+        </li>
+        <li>
+          <a href="" class="list">RESUME</a>
+        </li>
+        <li>
+          <a href="" class="list">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="" class="list">PROGRAM SKILLS</a>
+        </li>
+        <li>
+          <a href="" class="list">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="right-panel">
+
+  
+      <h1 class="title">RESUME</h1>
+
+      <p class="subtitle">EDUCATION</p>
+
+      <div class="box-container">
+
+        <div class="box">
+          <p class="subtitle1">2006-2012</p>
+          <p class="subtitle2">Civil Engineer</p>
+          <p class="paragraph">Graduated from Universidad del Cauca</p>
+        </div>
+
+        <div class="box">
+          <p class="subtitle1">2016-2017</p>
+          <p class="subtitle2">Specialisation on Structures</p>
+          <p class="paragraph">Graduated from Universidad del Valle, in a mid program between barchelor's degree and master's degree</p>
+        </div>
+        <div class="box">
+          <p class="subtitle1">2023</p>
+          <p class="subtitle2">Fullstack Developer With JavaScript</p>
+          <p class="paragraph">I have started the program this current year</p>
+        </div>
+      </div>
+
+      <p class="subtitle">EXPERIENCE </p>
+
+      <div class="box-container">
+        
+
+        <div class="box">
+          <p class="subtitle1">2012-2023</p>
+          <p class="subtitle2">Civil Engineer</p>
+          <p class="paragraph">Developing, supervising and designing construction projects and founder of "Construcción + Diseño" </p>
+        </div>
+
+        <div class="box">
+          <p class="subtitle1">2019 - </p>
+          <p class="subtitle2">Desktop application Engineer</p>
+          <p class="paragraph">Developing structural applications written on Vba.net language, this programs are comecialized on Colombia.</p>
+        </div>
+
+        <div class="box">
+          <p class="subtitle1">2023 -</p>
+          <p class="subtitle2">Web designer</p>
+          <p class="paragraph"> Developing personal and contracted projects</p>
+        </div>
+
+      </div>    
+
+
+
+    </div>
+
+   
+  </div>
+    
+</body>
+</html>
